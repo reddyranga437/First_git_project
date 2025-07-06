@@ -1,0 +1,2 @@
+If you want to change origin to ssh to https(every time login needed)
+git remote set-url origin git@github.com:reddyranga437/First_git_project.git
