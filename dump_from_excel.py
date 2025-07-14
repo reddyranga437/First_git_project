@@ -14,6 +14,7 @@ email_list=df.email.to_list()
 conn=psycopg2.connect('dbname=demo user=postgres password=postgres')
 cursor=conn.cursor()
 print(email_list)
+#functions start
 def institue_reg():
   try:
           for index,row in df.iterrows():
